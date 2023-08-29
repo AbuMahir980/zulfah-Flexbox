@@ -44,6 +44,7 @@ header > ul {
     /* justify-content: space-around; */
     gap: 30px;
     list-style-type: none;
+    font-size: 13px;
 }
 
 header ul li a {
@@ -64,8 +65,23 @@ header #Buy {
 }
 
 /* adding the cropped image to the bottom of bg-img generic container */
+.bg-img .cropped-img {
+    /* background-image: url(./assets/trans.jpg); */
+    
+    /* z-index: 2; */
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 20px;
+    /* width: fit-content; */
+}
 
-
+.bg-img .cropped-img img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
 /* Styling for footer section */
 footer{
     background-color: rgba(28, 28, 241, 1.0);
