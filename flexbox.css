@@ -84,6 +84,22 @@ header #Buy {
 }
 
 /* Styling the main section */
+.main-flex {
+    display: flex;
+    /* margin-top: 50px; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-flex .conference-details {
+    margin: 108px 0px;
+}
+
+.main-flex .conference-details h3 {
+    color: gray;
+    font-weight: lighter;
+
+}
 
 /* Styling for footer section */
 footer{
@@ -95,7 +111,7 @@ footer{
 
 .footer {
     display: flex;
-    padding-top: 90px;
+    padding-top: 100px;
     justify-content: space-between;
     align-items:flex-end;
 }
