@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Container positioning */
+.container  {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+/* Adding Bg-img to generic container */
+.bg-img {
+    /* margin-top: 0; */
+    /* height: 80vh; */
+    /* background-color: blue; */
+    background-image: url(./assets/pexels-scott-webb-532568.jpg);
+    background-repeat: no-repeat;
+    /* width: 800px; */
+    background-position: center;
+    background-size: cover;
+}
+
+/* styling the header/ hero section */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+header > ul {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    gap: 30px;
+    list-style-type: none;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: black;
+}
+header #Logo {
+    font-size: 16px;
+}
+header #Home {
+    color: gray;
+}
+
+header #Buy {
+    background-color: rgba(28, 28, 241, 1.0);
+    padding: 10px;
+    color: #fff;
+}
+
+/* adding the cropped image to the bottom of bg-img generic container */
+
+
+/* Styling for footer section */
+footer{
+    background-color: rgba(28, 28, 241, 1.0);
+    /* height: 50px; */
+    /* display: flex;
+    justify-content: ; */
+}
+
+.footer {
+    display: flex;
+    padding-top: 90px;
+    justify-content: space-between;
+    align-items:flex-end;
+}

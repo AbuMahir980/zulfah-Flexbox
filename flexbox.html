@@ -3,73 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PLATAFORMA | Business Leaders Conference 2019</title>
+    <link rel="stylesheet" href="flexbox.css">
 </head>
 <body>
     <div class="bg-img">
-        <div class="container">
-            <header>
-                <h2 id="Logo">PLATAFORMA.</h2>
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Speakers</li>
-                    <li>Schedule</li>
-                    <li>Blog</li>
-                    <li>Contact</li>
-                    <li>Buy Ticket</li>
-                </ul>
-            </header>
-            <main>
-                <section class="conference-details">
-                    <h3>Business Leaders</h3>
-                    <h1>Conference 2019</h1>
-                    <p><img width="20" height="20" src="https://img.icons8.com/wired/64/calendar--v1.png" alt="calendar--v1"/> 20-23 November 2019 - Los Angeles CA</p>
-                    <div class="countdown">
-                        <div class="days">
-                            <p>149</p>
-                            <p>DAYS</p>
-                        </div>
-                        <div class="hours">
-                            <p>01</p>
-                            <p>HOURS</p>
-                        </div>
-                        <div class="mins">
-                            <p>10</p>
-                            <p>MINUTES</p>
-                        </div>
-                        <div class="secs">
-                            <p>59</p>
-                            <p>SECONDS</p>
-                        </div>
+        <!-- <div class="container"> -->
+        <header class="container">
+            <h2 id="Logo">PLATAFORMA.</h2>
+            <ul>
+                <li><a href="#" id="Home">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Speakers</a></li>
+                <li><a href="#">Schedule</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#" id="Buy">Buy Ticket</a></li>
+            </ul>
+        </header>
+        <main class="container">
+            <section class="conference-details">
+                <h3>Business Leaders</h3>
+                <h1>Conference 2019</h1>
+                <p><img width="20" height="20" src="https://img.icons8.com/wired/64/calendar--v1.png" alt="calendar--v1"/> 20-23 November 2019 - Los Angeles CA</p>
+                <div class="countdown">
+                    <div class="days">
+                        <p>149</p>
+                        <p>DAYS</p>
                     </div>
-                </section>
-                <section class="section-forms">
-                    <h3>Join Conference</h3>
-                    <label for="name" class="name">Enter your Name</label><br>
-                    <input type="text" id="name" name="name" class="name">
-                    <br>
+                    <div class="hours">
+                        <p>01</p>
+                        <p>HOURS</p>
+                    </div>
+                    <div class="mins">
+                        
+                        <p>10</p>
+                        <p>MINUTES</p>
+                    </div>
+                    <div class="secs">
+                        <p>59</p>
+                        <p>SECONDS</p>
+                    </div>
+                </div>
+            </section>
+            <section class="section-forms">
+                <h3>Join Conference</h3>
+                <label for="name" class="name">Enter your Name</label><br>
+                <input type="text" id="name" name="name" class="name">
+                <br>
 
-                    <label for="email" class="email">Enter your Email</label><br>
-                    <input type="email" id="email" name="email" class="email">
-                    <br>
+                <label for="email" class="email">Enter your Email</label><br>
+                <input type="email" id="email" name="email" class="email">
+                <br>
 
-                    <label for="phone" class="phone">Enter your Phone</label><br>
-                    <input type="tel" id="phone" name="phone" class="phone">
-                    <br>
+                <label for="phone" class="phone">Enter your Phone</label><br>
+                <input type="tel" id="phone" name="phone" class="phone">
+                <br>
 
-                    <input type="checkbox"> I have read and accept the terms and conditions
-                    <br>
+                <input type="checkbox"> I have read and accept the terms and conditions
+                <br>
 
-                    <button type="submit">Join Now</button>
-                </section>
-            </main>
+                <button type="submit">Join Now</button>
+            </section>
+        </main>
+        <div class="cropped-img"></div>
+        <!-- </div> -->
+    </div>
+    <footer>
+        <div class="container footer">
+            <div class="venue">
+                <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/address--v1.png" alt="address--v1"/>
+                <p>Venue</p>
+            </div>
+            <div class="Transport">
+                <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/000000/around-the-globe.png" alt="around-the-globe"/>
+                <p>Transport</p>
+                </div>
+            <div class="hotel">
+                <img width="50" height="50" src="https://img.icons8.com/external-xnimrodx-lineal-xnimrodx/64/1A1A1A/external-hotel-holiday-xnimrodx-lineal-xnimrodx.png" alt="external-hotel-holiday-xnimrodx-lineal-xnimrodx"/>
+                <p>hotel</p>
+            </div>
+            <div class="Restaurant">
+                <img width="50" height="50" src="https://img.icons8.com/external-wanicon-lineal-wanicon/64/1A1A1A/external-chef-cooking-wanicon-lineal-wanicon.png" alt="external-chef-cooking-wanicon-lineal-wanicon"/>
+                <p>Restaurant</p>
+            </div>
         </div>
-    </div>
-    <div class="container">
-        <footer>
-            
-        </footer>
-    </div>
+    </footer>
 </body>
 </html>
