@@ -25,42 +25,44 @@
             <section class="conference-details">
                 <h3>Business Leaders</h3>
                 <h1>Conference 2019</h1>
-                <p><img width="20" height="20" src="https://img.icons8.com/wired/64/calendar--v1.png" alt="calendar--v1"/> 20-23 November 2019 - Los Angeles CA</p>
+                <div class="date">
+                    <img width="20" height="20" src="https://img.icons8.com/wired/64/calendar--v1.png" alt="calendar--v1"/>  <span>20-23 November 2019 - Los Angeles CA</span>
+                </div>
                 <div class="countdown">
-                    <div class="days">
-                        <p>149</p>
-                        <p>DAYS</p>
+                    <div>
+                        <p class="nums">149</p>
+                        <p class="subtitle">DAYS</p>
                     </div>
-                    <div class="hours">
-                        <p>01</p>
-                        <p>HOURS</p>
+                    <div class="countdown-items">
+                        <p class="nums">01</p>
+                        <p class="subtitle">HOURS</p>
                     </div>
-                    <div class="mins">
+                    <div class="countdown-items">
                         
-                        <p>10</p>
-                        <p>MINUTES</p>
+                        <p class="nums">10</p>
+                        <p class="subtitle">MINUTES</p>
                     </div>
-                    <div class="secs">
-                        <p>59</p>
-                        <p>SECONDS</p>
+                    <div class="countdown-items">
+                        <p class="nums">59</p>
+                        <p class="subtitle">SECONDS</p>
                     </div>
                 </div>
             </section>
             <section class="section-forms">
                 <h3>Join Conference</h3>
                 <label for="name" class="name">Enter your Name</label><br>
-                <input type="text" id="name" name="name" class="name">
+                <input type="text" id="name" name="name" class="forms">
                 <br>
 
                 <label for="email" class="email">Enter your Email</label><br>
-                <input type="email" id="email" name="email" class="email">
+                <input type="email" id="email" name="email" class="forms">
                 <br>
 
                 <label for="phone" class="phone">Enter your Phone</label><br>
-                <input type="tel" id="phone" name="phone" class="phone">
+                <input type="tel" id="phone" name="phone" class="forms">
                 <br>
 
-                <p><input type="checkbox"> I have read and accept the terms and conditions</p>
+                <input type="checkbox"> <span id="terms">I have read and accept the terms and conditions</span>
                 <br>
 
                 <button type="submit">Join Now</button>
